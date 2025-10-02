@@ -3,7 +3,7 @@ local component = require("component")
 -- local I = require("inflate")
 -- I.debug.all = true
 -- local N = require("nbt_parser")
-local N = require("oc_nbt")
+local N = require("nbt")
 
 local M = {}
 --- Favor numbers first,
