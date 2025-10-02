@@ -1,0 +1,63 @@
+tag_id	10	name_size	0	name	nil	pos	4
+compound start
+tag_id	10	name_size	12	name	GT.ToolStats	pos	19
+compound start
+tag_id	8	name_size	15	name	PrimaryMaterial	pos	37
+payload	Shadow
+compound entry	8	PrimaryMaterial	Shadow
+tag_id	4	name_size	11	name	SpecialData	pos	59
+payload	-16383
+compound entry	4	SpecialData	-16383
+tag_id	4	name_size	9	name	MaxDamage	pos	79
+payload	0
+compound entry	4	MaxDamage	0
+tag_id	4	name_size	4	name	Tier	pos	94
+payload	3
+compound entry	4	Tier	3
+tag_id	1	name_size	4	name	Mode	pos	109
+payload	0
+compound entry	1	Mode	0
+tag_id	4	name_size	9	name	MaxCharge	pos	122
+payload	-10752
+compound entry	4	MaxCharge	-10752
+tag_id	4	name_size	7	name	Voltage	pos	140
+payload	512
+compound entry	4	Voltage	512
+tag_id	1	name_size	8	name	Electric	pos	159
+payload	1
+compound entry	1	Electric	1
+tag_id	8	name_size	17	name	SecondaryMaterial	pos	180
+payload	StainlessSteel
+compound entry	8	SecondaryMaterial	StainlessSteel
+tag_id	4	name_size	6	name	Damage	pos	205
+payload	6077
+compound entry	4	Damage	6077
+tag_id	0	name_size	nil	name	nil	pos	214
+compound entry	0	nil	nil
+payload:
+MaxCharge	4	-10752
+MaxDamage	4	0
+PrimaryMaterial	8	Shadow
+Electric	1	1
+Mode	1	0
+Damage	4	6077
+SpecialData	4	-16383
+Voltage	4	512
+Tier	4	3
+SecondaryMaterial	8	StainlessSteel
+---
+compount end
+compound entry	10	GT.ToolStats	table: 0x7f02ec330560
+tag_id	4	name_size	13	name	GT.ItemCharge	pos	230
+payload	-10752
+compound entry	4	GT.ItemCharge	-10752
+tag_id	0	name_size	nil	name	nil	pos	239
+compound entry	0	nil	nil
+payload:
+GT.ItemCharge	4	-10752
+GT.ToolStats	10	table: 0x7f02ec330560
+---
+compount end
+tag_id	10	name	nil	payload	table: 0x7f02ec32d770
+GT.ItemCharge	table: 0x7f02e438e400
+GT.ToolStats	table: 0x7f02f84796f0
